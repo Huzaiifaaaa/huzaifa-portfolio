@@ -304,7 +304,7 @@ export default function Page() {
                   Glaucoma Classification
                 </h3>
                 <p className="record__org">
-                  IEEE EMBC 2025 · Copenhagen&nbsp;·&nbsp;
+                  IEEE EMBC 2025&nbsp;·&nbsp;
                   <a
                     className="dossier__link"
                     href="https://ieeexplore.ieee.org/document/11253669"
