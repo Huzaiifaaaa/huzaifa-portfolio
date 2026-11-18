@@ -4,7 +4,7 @@ import { ClassificationBanner } from "@/components/ClassificationBanner";
 import { SiteNav } from "@/components/SiteNav";
 
 export const metadata: Metadata = {
-  title: "Not found · Justin Middler",
+  title: "Not found · Muhammad Huzaifa",
   robots: { index: false, follow: true },
 };
 

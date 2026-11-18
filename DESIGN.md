@@ -1,6 +1,6 @@
 # Design
 
-Visual system for `jussodev-portfolio`. Aesthetic: Declassified Dossier — a single-page personal portfolio styled as a public-release government file.
+Visual system for `huzaifa-portfolio`. Aesthetic: Declassified Dossier — a single-page personal portfolio styled as a public-release government file.
 
 ## Theme
 
@@ -64,7 +64,7 @@ Line-height: 1.55 for body, 1.15 for display. Letter-spacing on `Special Elite`:
 Top and bottom of page. Full-width stripe, `--stamp` background, `--paper` text, `Special Elite` 0.75rem, letter-spacing 0.18em, 6px vertical padding. Content: `// UNCLASSIFIED // PUBLIC RELEASE // FOR REVIEW //`.
 
 ### Dossier frame
-The page's primary container. Double-rule border (2px `--ink` outer, 1px `--ink-faint` inner at 4px offset). Top-right corner carries the page-of-page indicator (`P. 01 OF 01`). Top-left carries `DOSSIER 001 — SUBJECT: J. MIDDLER`.
+The page's primary container. Double-rule border (2px `--ink` outer, 1px `--ink-faint` inner at 4px offset). Top-right corner carries the page-of-page indicator (`P. 01 OF 01`). Top-left carries `DOSSIER 001 — SUBJECT: M. HUZAIFA`.
 
 ### Redaction reveal
 Span wrapped around sensitive-but-public content (employer, project names a visitor doesn't expect). Default state: solid `--redact` background covering the text, text color matched to background so the word is invisible. On hover, focus, or tap: background transitions to transparent over 240ms `cubic-bezier(0.16, 1, 0.3, 1)`, text color returns to `--ink`. A subtle 1px `--ink-faint` underline persists in both states to keep the affordance visible.
@@ -72,7 +72,7 @@ Span wrapped around sensitive-but-public content (employer, project names a visi
 Accessibility: the underlying text is in the DOM at full contrast for screen readers (the redaction is a `::before` pseudo-element overlay, not a text-color trick). `aria-label="declassify on activation"` on each instance. Operable via keyboard `Enter` / `Space`.
 
 ### Stamp mark
-Decorative red angled stamp ("DECLASSIFIED", "REVIEW COMPLETE", "AUTHENTICATED — J.M."). Rendered as an SVG with a slight rotation (-7deg to -12deg), 70% opacity, `--stamp` color. Used sparingly: one per major section maximum.
+Decorative red angled stamp ("DECLASSIFIED", "REVIEW COMPLETE", "AUTHENTICATED — M.H."). Rendered as an SVG with a slight rotation (-7deg to -12deg), 70% opacity, `--stamp` color. Used sparingly: one per major section maximum.
 
 ### Field-artifact row (project listing)
 Not a card. A dense row with: leading index number (`3.1`, `3.2`...), project name in display face, one-line description, metadata trail (`LANG · STARS · LAST-UPDATED`), and an inline `>` glyph that animates 4px right on hover. Rows separated by 1px `--ink-faint` hairlines, not by gap.
@@ -103,6 +103,6 @@ No icons. No illustrations. No hero photo.
 - No dark mode.
 - No emoji anywhere in the UI.
 - No avatar / headshot. The dossier metaphor requires anonymity-with-attribution.
-- No "Hi, I'm Justin" hero copy. The dossier header does that work.
+- No "Hi, I'm Huzaifa" hero copy. The dossier header does that work.
 - No third-party analytics, no cookie banner. Static site, zero JS network requests after load.
 - No client-side router transitions. One page, scroll-driven.

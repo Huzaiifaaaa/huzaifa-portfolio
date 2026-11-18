@@ -4,9 +4,9 @@ import { SiteNav } from "@/components/SiteNav";
 import { formatDate, getAllPosts } from "@/lib/blog";
 import { siteName } from "@/lib/site";
 
-const title = "Blog · Justin Middler";
+const title = "Blog · Muhammad Huzaifa";
 const description =
-  "Notes from Justin Middler on cyber security, cloud platforms and the tools he builds.";
+  "Notes from Muhammad Huzaifa on software engineering, security and the things he builds.";
 
 export const metadata: Metadata = {
   title,
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "en_AU",
+    locale: "en_GB",
     url: "/blog/",
     siteName,
     title,
@@ -40,7 +40,7 @@ export default function BlogIndex() {
             <div>
               <p className="dossier__id">DOSSIER 002 · FIELD NOTES</p>
               <p className="label" style={{ marginTop: "0.35rem" }}>
-                Written by J. Middler · Newest first
+                Written by M. Huzaifa · Newest first
               </p>
             </div>
             <div className="dossier__page">

@@ -13,7 +13,7 @@ Example: `content/blog/2026-10-16-this-blog-is-live.md`
 
 - `YYYY-MM-DD` is the publish date, zero padded (`2026-03-07`, not `2026-3-7`).
 - `slug` is everything after the date, minus `.md`. It becomes the URL:
-  `https://justin.middler.io/blog/<slug>/`
+  `https://huzaifa.eu/blog/<slug>/`
 - Slug rules:
   - lowercase letters `a-z`, digits `0-9` and hyphens `-` only
   - no spaces, underscores, capitals, accents or punctuation
@@ -21,8 +21,8 @@ Example: `content/blog/2026-10-16-this-blog-is-live.md`
   - must be unique across all posts, even if the dates differ
 - The extension must be `.md` (lowercase).
 
-Good: `2026-11-02-sentinel-cost-tuning.md`
-Bad: `2026-11-2-Sentinel_Cost.md`, `sentinel-cost.md`, `2026-11-02-sentinel--cost.md`
+Good: `2026-11-02-first-post.md`
+Bad: `2026-11-2-First_Post.md`, `first-post.md`, `2026-11-02-first--post.md`
 
 ## 2. Frontmatter
 
@@ -31,7 +31,7 @@ and edit the values:
 
 ```markdown
 ---
-title: Tuning Sentinel costs without losing detections
+title: My first post
 date: 2026-11-02
 summary: One sentence that appears on the blog list, in RSS and in link previews.
 tags: [security, azure]
@@ -81,8 +81,8 @@ deploys it to GitHub Pages. Either:
 - open a pull request and merge it into `main`.
 
 The post is live a couple of minutes later at
-`https://justin.middler.io/blog/<slug>/`, and appears at the top of
-`https://justin.middler.io/blog/` and in `https://justin.middler.io/blog/rss.xml`.
+`https://huzaifa.eu/blog/<slug>/`, and appears at the top of
+`https://huzaifa.eu/blog/` and in `https://huzaifa.eu/blog/rss.xml`.
 
 ## 6. If the build fails
 

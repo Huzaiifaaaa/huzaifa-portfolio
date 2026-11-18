@@ -1,91 +1,56 @@
-# Justin Middler
+# Muhammad Huzaifa
 
-Indigenous Australian Cyber Security Engineer and Software Engineer based in
-Canberra, ACT. Almost 15 years in information technology and cyber security,
-including more than a decade working in and alongside the Australian Public
-Service since 2012. Former Microsoft Software Engineer contributing to Azure
-control-plane services.
+Full Stack Software Engineer and MSc Computer Science & Engineering student
+(Cyber Security specialisation) at the University of Oulu, Finland. Shipping
+production software since 2022 across payment gateways, defence systems,
+open source databases and AI security research.
 
-GitHub: https://github.com/jusso-dev
-Site: https://justin.middler.io/
+GitHub: https://github.com/huzaiifaaaa
+LinkedIn: https://linkedin.com/in/huzaiifaaaa
+Stack Overflow: https://stackoverflow.com/users/16631465/huzaifa
+Site: https://huzaifa.eu/
 
 ## Capability
 
-- Security Operations, Security Engineering, Cloud Security, Incident
-  Response, GRC, Enterprise Architecture, C#/.NET development, DevOps,
-  automated testing, and vulnerability management.
-- Microsoft Sentinel, Defender XDR, Defender for Endpoint, Prisma Cloud,
-  Cortex Cloud, SOAR, SIEM, threat hunting, and detection engineering.
-- PSPF, ISM, Essential Eight, IRAP, ATO, NIST, OWASP Top 10, control mapping,
-  secure SDLC, and security architecture.
-- C#/.NET, PowerShell, TypeScript, Python, JavaScript, Java, Go, Swift, Azure,
-  AWS, GCP, Docker, Kubernetes, Power BI, Azure DevOps, TFS, and Selenium.
+- Languages: Java, C#, Python, Go, JavaScript, TypeScript, SQL, C, C++.
+- Frameworks: Spring Boot, ASP.NET Core, Node.js, React, Hibernate, REST API
+  design, microservices.
+- Data and messaging: PostgreSQL, MSSQL, MySQL, YugabyteDB, Apache Kafka,
+  RabbitMQ.
+- Cloud and DevOps: Azure, Google Cloud, Docker, Kubernetes, Jenkins, GitHub
+  Actions, CI/CD, Azure Sentinel.
+- Security and compliance: PCI-DSS, GDPR, OWASP Top 10, SIEM.
+- Engineering practice: system design, distributed systems, Agile/Scrum, unit
+  and automated testing (Playwright, Selenium).
 
 ## Certifications
 
-- Microsoft Azure AZ-900
-- CompTIA Security+
-- Acunetix Web Vulnerability Scanning
+- TryHackMe Junior Penetration Tester (2025)
 
 ## Experience
 
-- Cloud Security Engineer, Department of Employment and Workplace Relations,
-  2024 to 2026. Led Azure cloud-security uplift, Prisma Cloud and Cortex Cloud
-  adoption, detection and hunting capability, compliance monitoring, and
-  vulnerability management. Built C# and PowerShell pipelines processing
-  hundreds of thousands of records into Power BI executive reporting.
+- Research Intern, University of Oulu (2026). Extended the AVISE AI security
+  evaluation framework to Text-to-Image models; co-authored a paper submitted
+  to NordSec 2026.
+- Full Stack Software Engineer, Datapulse Technologies, Ireland, remote
+  (2024 to 2026). Rebuilt a multi-region whitelabel payment gateway now
+  serving 1000+ merchants; 25% performance gain; integrated three acquirers
+  plus Apple Pay and Google Pay; owned CI/CD; led PCI-DSS readiness.
+- Trainee Engineer, Rapidev, Islamabad (2022 to 2024). RapiGuard anti-UAV
+  sensor integration, key management application for radio hardware, Flutter
+  situational-awareness app.
+- Software Engineer, Open Source, Bitnine (2023). Apache AGE contributor;
+  built the AG Cloud website.
+- Founder, Nafalytics. Stock portfolio tracker built solo, 300 active users.
 
-- Cyber Security Engineer, Department of Employment and Workplace Relations,
-  September 2022 to 2024. Led migration from a legacy SIEM to Microsoft
-  Sentinel, implemented incident-response case management and SOAR, and
-  engineered detections across Sentinel, Defender XDR, Defender for Endpoint,
-  Prisma Cloud, and Cortex Cloud. Built threat-intelligence ingestion and
-  executive reporting. Mentored APS employees and contractors across Azure,
-  AWS, cloud security, incident response, and security operations.
+## Education
 
-- Software Engineer, Microsoft Azure control plane, earlier career.
-  Contributed C#/.NET production engineering to services supporting
-  infrastructure used by hundreds of millions of people.
+- MSc Computer Science & Engineering, University of Oulu (2025 to 2027).
+- BSc Computer Science, National University of Sciences & Technology (2020 to
+  2024).
 
-- Cyber Security Architect, Department of Education, Skills and Employment,
-  January 2021 to August 2022. Advised major federal projects on secure SDLC,
-  threat modelling, code review, OWASP Top 10, ISM, and PSPF. Delivered a
-  secure container proof of concept and led AKS, OpenShift, and Tanzu
-  architecture.
+## Publications
 
-- Cyber Security Officer, Department of Education, Skills and Employment,
-  September 2019 to January 2021. Advised cloud, hybrid, and on-premises
-  programs; briefed the CISO and ITSA; contributed to policy and strategy; and
-  coordinated with vendors, penetration testers, and IRAP assessors.
-
-- Managing Director, DEUCEM Pty Ltd, February to December 2019. Led an
-  Indigenous Australian startup specialising in software, mobile applications,
-  machine learning, and cyber security.
-
-- Security Software Engineer, NJOY Security, August 2018 to January 2019.
-  Delivered full-stack and security automation, Azure automation, and IRAP and
-  PSPF consulting. Helped prepare successful PROTECTED IRAP assessments for
-  Google and Salesforce.
-
-- Chatbot Software Developer, Department of Jobs and Small Business, September
-  2017 to August 2018. Led the department's first AI help-desk chatbot using
-  C#, Web API 2, Microsoft Bot Framework, Azure, microservices, and
-  event-driven architecture.
-
-- DevOps Engineer, Department of Jobs and Small Business, March 2017 to August
-  2018. Implemented TFS and Azure DevOps delivery templates, PowerShell DSC
-  deployment automation, Windows Server provisioning, and Dynatrace monitoring.
-
-- Automation Testing Software Engineer, Department of Jobs and Small Business,
-  September 2016 to August 2018. Established a centralised Selenium and Page
-  Object Model framework and parallel testing through department-wide CI/CD.
-
-## Selected open-source work
-
-See https://github.com/jusso-dev for current repositories, including Kelpie,
-Tawny, Bunya, OakAttest, DingoDocs, GRiCk, BlakCert, BlakFile, depscan,
-AthenemyLMS, awesome-Australian-compliance, and IOC-Dispatch.
-
-## Contact
-
-GitHub: https://github.com/jusso-dev
+- OptiGuard: Generalized, Attention-Driven & Explainable Glaucoma
+  Classification. IEEE EMBC 2025, Copenhagen.
+  https://ieeexplore.ieee.org/document/11253669

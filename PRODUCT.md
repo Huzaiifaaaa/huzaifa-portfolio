@@ -6,14 +6,14 @@ brand
 
 ## Users
 
-Hiring managers, technical leaders, and government / cyber-adjacent peers landing on a personal portfolio. They arrive skeptical, scanning for proof of substance, often from a LinkedIn or GitHub referral. Most visits last under 90 seconds; the page has one chance to register credibility.
+Hiring managers, technical leaders, and engineering / security peers landing on a personal portfolio. They arrive skeptical, scanning for proof of substance, often from a LinkedIn or GitHub referral. Most visits last under 90 seconds; the page has one chance to register credibility.
 
 ## Product Purpose
 
-A personal portfolio for Justin Middler, a Canberra-based Indigenous Australian cyber security and software engineering practitioner with almost 15 years in and alongside the Australian Public Service, and prior experience as a Software Engineer on Microsoft Azure control-plane services. The site exists to:
+A personal portfolio for Muhammad Huzaifa, a Full Stack Software Engineer based in Oulu, Finland, studying for an MSc in Computer Science & Engineering (Cyber Security), with production experience on a PCI-DSS payment gateway, defence systems, and Apache AGE. The site exists to:
 
 1. Establish credibility quickly through specific, verifiable claims (tenure, employer, repos).
-2. Showcase recent personal work pulled from `github.com/jusso-dev/` — depscan, AthenemyLMS, Tawny, OakAttest, awesome-Australian-compliance, IOC-Dispatch.
+2. Showcase recent personal work listed in `src/lib/projects.ts` — AVISE, Nafalytics, OptiGuard, ProBot API and others from `github.com/huzaiifaaaa`.
 3. Hand off cleanly to GitHub for deeper inspection.
 
 Success: a visitor leaves with a precise, distinctive impression of a senior practitioner — not a generic developer portfolio — and either visits a repo or remembers the page well enough to mention it.
@@ -35,7 +35,7 @@ Operator. Documentary. Restrained. Voice is confident and direct: short factual 
 ## Design Principles
 
 1. **The document is the design.** Treat the page as an artifact, not a marketing site. Frames, banners, control numbers, page-of-page indicators carry the voice.
-2. **Specific claims beat adjectives.** "10 years Australian Federal Government cyber" beats "experienced security professional". Every line of copy names a thing.
+2. **Specific claims beat adjectives.** "payment gateway serving 1000+ merchants" beats "experienced security professional". Every line of copy names a thing.
 3. **Reveal, don't list.** Redactions, stamps, and progressive disclosure invite curiosity. Static walls of text don't.
 4. **Earned restraint.** One mark color (declassified-stamp red), one warm-paper ground, one ink black. Anything more dilutes the metaphor.
 5. **Static, fast, durable.** Ships as a static export to GitHub Pages. No client-side data fetching, no analytics drag, no fonts that block paint.

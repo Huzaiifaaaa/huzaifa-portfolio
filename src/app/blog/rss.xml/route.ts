@@ -42,10 +42,10 @@ export function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Justin Middler · Blog</title>
+    <title>Muhammad Huzaifa · Blog</title>
     <link>${blogUrl}</link>
-    <description>Notes from Justin Middler on cyber security, cloud platforms and the tools he builds.</description>
-    <language>en-au</language>
+    <description>Notes from Muhammad Huzaifa on software engineering, security and the things he builds.</description>
+    <language>en</language>
     <atom:link href="${feedUrl}" rel="self" type="application/rss+xml" />
 ${items}
   </channel>

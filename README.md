@@ -1,31 +1,12 @@
-# jussodev-portfolio
+# huzaifa-portfolio
 
-Personal portfolio for Justin Middler, an Indigenous Australian cyber security and software engineering practitioner with almost 15 years in and alongside the Australian Public Service, plus prior Microsoft Azure control-plane experience.
+Personal portfolio for Muhammad Huzaifa, a Full Stack Software Engineer and MSc Computer Science & Engineering (Cyber Security) student at the University of Oulu, Finland.
 
 Static Next.js site styled as a declassified government dossier. Ships to GitHub Pages.
 
-Live at [justin.middler.io](https://justin.middler.io/).
+Live at [huzaifa.eu](https://huzaifa.eu/).
 
-## Screenshot
-
-![Portfolio homepage](docs/screenshots/portfolio-home.png)
-
-<details>
-<summary>View the dossier sections</summary>
-
-| Subject profile | Mission record |
-| --- | --- |
-| ![Portfolio subject profile](docs/screenshots/subject.png) | ![Portfolio mission record](docs/screenshots/mission-record.png) |
-
-| Notable impact | Field artifacts |
-| --- | --- |
-| ![Portfolio notable impact](docs/screenshots/notable-impact.png) | ![Portfolio field artifacts](docs/screenshots/field-artifacts.png) |
-
-| Contact channels |
-| --- |
-| ![Portfolio contact channels](docs/screenshots/address-disposition.png) |
-
-</details>
+Design adapted from [jusso-dev/jussodev-portfolio](https://github.com/jusso-dev/jussodev-portfolio).
 
 ## Local
 
@@ -33,21 +14,30 @@ Live at [justin.middler.io](https://justin.middler.io/).
 npm install
 npm run dev        # http://localhost:3000
 npm run build      # writes ./out
+npm run screenshot # writes docs/screenshots/
 ```
+
+## Where the content lives
+
+- `src/app/page.tsx`: the dossier (profile, experience, research, impact, contact).
+- `src/lib/projects.ts`: the Field Artifacts project list.
+- `src/app/layout.tsx`: page title, SEO description and structured data.
+- `public/resume.txt`, `public/llms.txt`: plain-text CV.
 
 ## Blog
 
-Markdown posts live in `content/blog/` and render to `/blog/` at build time, with an RSS feed at `/blog/rss.xml`. See [`content/blog/README.md`](content/blog/README.md) for how to add a post.
+Markdown posts live in `content/blog/` and render to `/blog/` at build time, with an RSS feed at `/blog/rss.xml`. There are no posts yet; the blog page shows "No entries filed yet." until one is added. See [`content/blog/README.md`](content/blog/README.md) for how to add a post.
 
 ## Deploy
 
-Pushes to `main` build and publish to GitHub Pages via `.github/workflows/deploy.yml`. The site is built for the custom domain root, so Next.js assets resolve from `/_next/` instead of the old `/jussodev-portfolio/_next/` project-page path.
+Pushes to `main` build and publish to GitHub Pages via `.github/workflows/deploy.yml`.
 
 In the GitHub repo:
 
 1. **Settings → Pages → Build and deployment → Source**: select **GitHub Actions**.
-2. **Settings → Pages → Custom domain**: set `justin.middler.io`.
-3. Push to `main`. The workflow does the rest.
+2. **Settings → Pages → Custom domain**: set `huzaifa.eu`.
+3. Optional: add `NEXT_PUBLIC_FORMSPREE_ENDPOINT` (and `NEXT_PUBLIC_TURNSTILE_SITE_KEY`) as repo secrets to turn on the contact form.
+4. Push to `main`. The workflow does the rest.
 
 ## Stack
 

@@ -32,7 +32,7 @@ jobs:
 
       - name: Build
         env:
-          SITE_URL: https://justin.middler.io
+          SITE_URL: https://huzaifa.eu
           NEXT_PUBLIC_FORMSPREE_ENDPOINT: ${{ secrets.NEXT_PUBLIC_FORMSPREE_ENDPOINT }}
           NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
         run: npm run build

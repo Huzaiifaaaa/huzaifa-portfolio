@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = await getPost(slug);
   if (!post) return {};
   const url = `/blog/${post.slug}/`;
-  const title = `${post.title} · Justin Middler`;
+  const title = `${post.title} · Muhammad Huzaifa`;
   return {
     title,
     description: post.summary,
@@ -34,13 +34,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: url },
     openGraph: {
       type: "article",
-      locale: "en_AU",
+      locale: "en_GB",
       url,
       siteName,
       title: post.title,
       description: post.summary,
       publishedTime: post.date,
-      authors: ["Justin Middler"],
+      authors: ["Muhammad Huzaifa"],
       tags: post.tags,
     },
     twitter: { card: "summary", title: post.title, description: post.summary },
@@ -70,7 +70,7 @@ export default async function PostPage({ params }: Props) {
             </div>
             <div className="dossier__page">
               <div>FILED {post.date.replaceAll("-", ".")}</div>
-              <div style={{ marginTop: "0.2rem" }}>AUTH · J. MIDDLER</div>
+              <div style={{ marginTop: "0.2rem" }}>AUTH · M. HUZAIFA</div>
             </div>
           </header>
 
