@@ -730,6 +730,17 @@ a {
   letter-spacing: 0.06em;
 }
 
+/* Entry numbers follow their section: §3 → 3.01, §4 → 4.01, §5 → 5.01. */
+.record--s3 .record__entry::before {
+  content: "3." counter(service-record, decimal-leading-zero);
+}
+.record--s4 .record__entry::before {
+  content: "4." counter(service-record, decimal-leading-zero);
+}
+.record--s5 .record__entry::before {
+  content: "5." counter(service-record, decimal-leading-zero);
+}
+
 .record__entry:first-child::before {
   top: 0;
 }

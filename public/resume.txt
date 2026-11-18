@@ -1,6 +1,7 @@
 MUHAMMAD HUZAIFA
 Software Engineer (Full Stack)
 Oulu, Finland
+Email:    mhuzaifa404@proton.me
 GitHub:   https://github.com/huzaiifaaaa
 LinkedIn: https://linkedin.com/in/huzaiifaaaa
 Site:     https://huzaifa.eu/
@@ -28,7 +29,7 @@ AI tools:    Claude Code, Codex, Cursor, GitHub Copilot
 
 EXPERIENCE
 ----------
-Research Intern                                              2026
+Research Intern                                    Jun 2026 to Aug 2026
 University of Oulu, Finland
 - Extended the AVISE security evaluation framework to Text-to-Image models
   with a 16-case adversarial test suite for style-escalation resistance.
@@ -37,7 +38,7 @@ University of Oulu, Finland
 - Built OpenRouter-based connectors for reproducible evaluation across 4+
   T2I model providers.
 
-Full Stack Software Engineer                                 2024 to 2026
+Full Stack Software Engineer                       Feb 2024 to Mar 2026
 Datapulse Technologies (FinTech), Ireland, remote
 - Architected and delivered a replacement payment gateway from legacy
   infrastructure, now serving 1000+ merchants.
@@ -51,7 +52,7 @@ Datapulse Technologies (FinTech), Ireland, remote
   releases.
 - Led PCI-DSS readiness, closing 15+ audit findings ahead of certification.
 
-Trainee Engineer                                             2022 to 2024
+Trainee Engineer (part-time)                       Jul 2022 to May 2024
 Rapidev (DefTech), Islamabad, Pakistan
 - Integrated detectors, jammers and spoofers into the RapiGuard anti-UAV
   system via GraphQL.
@@ -60,13 +61,14 @@ Rapidev (DefTech), Islamabad, Pakistan
   key injection into radio hardware.
 - Built a Flutter situational-awareness app with Google Maps tracking.
 
-Software Engineer, Open Source                               2023
+Software Engineer Intern, Open Source                        2023
 Bitnine, San Francisco, remote
 - Developed the AG Cloud website for cloud-hosted graph databases.
 - Enhanced Apache AGE functionality and performance as a core contributor.
 
-Founder & Full Stack Engineer
-Nafalytics (https://nafalytics.com)
+PROJECTS
+--------
+Nafalytics (https://nafalytics.com), founder and sole engineer
 - Built a stock portfolio tracking platform solo in three months; 300
   active users.
 - Real-time P/L, FIFO trade matching, watchlists, payouts, notifications.

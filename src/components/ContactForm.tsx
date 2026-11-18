@@ -59,12 +59,7 @@ export function ContactForm() {
   }
 
   if (!ENDPOINT) {
-    return (
-      <p className="form__missing">
-        Contact form offline. Endpoint not configured at build time.
-        Reach out via GitHub below.
-      </p>
-    );
+    return null;
   }
 
   if (state === "sent") {
@@ -96,7 +91,7 @@ export function ContactForm() {
     >
       <p id="form-meta" className="form__meta">
         Form 7B · Inbound contact request. Routed through external
-        custodian. No email address exposed.
+        custodian.
       </p>
 
       <input
@@ -204,8 +199,8 @@ export function ContactForm() {
 
       {state === "error" && (
         <p className="form__error" role="alert">
-          Transmission failed: {error}. Retry, or contact via GitHub
-          below.
+          Transmission failed: {error}. Retry, or contact by email
+          above.
         </p>
       )}
     </form>

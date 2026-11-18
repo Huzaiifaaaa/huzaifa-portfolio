@@ -10,9 +10,9 @@ export const projects: Project[] = [
   {
     name: "AVISE",
     description:
-      "AI Vulnerability Identification & Security Evaluation framework (University of Oulu). Extended it to Text-to-Image models with a 16-case adversarial suite and OpenRouter connectors across 4+ providers.",
+      "AI Vulnerability Identification & Security Evaluation framework. Extended it to Text-to-Image models with a 16-case adversarial suite and OpenRouter connectors across 4+ providers.",
     lang: "Python",
-    updated: "2026.06",
+    updated: "2026.08",
     href: "https://github.com/ouspg/AVISE",
   },
   {
@@ -24,35 +24,19 @@ export const projects: Project[] = [
     href: "https://nafalytics.com",
   },
   {
-    name: "OptiGuard",
+    name: "PBT Payment Gateway",
     description:
-      "Attention-driven, explainable glaucoma classification. State-of-the-art on G-1020 and SMDG; published at IEEE EMBC 2025.",
-    lang: "Python",
-    updated: "2026.04",
-    href: "https://github.com/huzaiifaaaa/OptiGuard",
+      "Multi-region whitelabel payment gateway rebuilt from legacy infrastructure, serving 1000+ merchants. Acquirer and Apple Pay / Google Pay integrations, Spring Boot microservices, PCI-DSS readiness.",
+    lang: "Java",
+    updated: "2026.03",
+    href: "https://pbtgateway.com/",
   },
   {
-    name: "ProBot API",
+    name: "RapiGuard",
     description:
-      "REST API and client for managing access to LLM models, with JWT auth, role-based users, and Docker / nginx deployment.",
-    lang: "Python",
-    updated: "2026.04",
-    href: "https://github.com/huzaiifaaaa/programmable-web-project-d4",
-  },
-  {
-    name: "Diabetic-Retinopathy",
-    description:
-      "Deep learning classifier for diabetic retinopathy grading from retinal fundus images.",
-    lang: "Python",
-    updated: "2023.05",
-    href: "https://github.com/huzaiifaaaa/Diabetic-Retinopathy",
-  },
-  {
-    name: "PONG-MASM615",
-    description:
-      "Graphical two-player Pong written in x86 assembly (MASM 6.15).",
-    lang: "Assembly",
-    updated: "2021.12",
-    href: "https://github.com/huzaiifaaaa/PONG-MASM615",
+      "Anti-UAV defence system. Integrated detectors, jammers and spoofers over GraphQL for real-time aerial threat detection, plus REST APIs for third-party integration.",
+    lang: "C#",
+    updated: "2024.05",
+    href: "https://rapidev.ae",
   },
 ];

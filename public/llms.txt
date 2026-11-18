@@ -5,6 +5,7 @@ Full Stack Software Engineer and MSc Computer Science & Engineering student
 production software since 2022 across payment gateways, defence systems,
 open source databases and AI security research.
 
+Email: mhuzaifa404@proton.me
 GitHub: https://github.com/huzaiifaaaa
 LinkedIn: https://linkedin.com/in/huzaiifaaaa
 Stack Overflow: https://stackoverflow.com/users/16631465/huzaifa
@@ -29,19 +30,23 @@ Site: https://huzaifa.eu/
 
 ## Experience
 
-- Research Intern, University of Oulu (2026). Extended the AVISE AI security
+- Research Intern, University of Oulu (Jun 2026 to Aug 2026). Extended the AVISE AI security
   evaluation framework to Text-to-Image models; co-authored a paper submitted
   to NordSec 2026.
 - Full Stack Software Engineer, Datapulse Technologies, Ireland, remote
-  (2024 to 2026). Rebuilt a multi-region whitelabel payment gateway now
+  (Feb 2024 to Mar 2026). Rebuilt a multi-region whitelabel payment gateway now
   serving 1000+ merchants; 25% performance gain; integrated three acquirers
   plus Apple Pay and Google Pay; owned CI/CD; led PCI-DSS readiness.
-- Trainee Engineer, Rapidev, Islamabad (2022 to 2024). RapiGuard anti-UAV
+- Trainee Engineer (part-time), Rapidev, Islamabad (Jul 2022 to May 2024). RapiGuard anti-UAV
   sensor integration, key management application for radio hardware, Flutter
   situational-awareness app.
-- Software Engineer, Open Source, Bitnine (2023). Apache AGE contributor;
+- Software Engineer Intern, Open Source, Bitnine (2023). Apache AGE contributor;
   built the AG Cloud website.
-- Founder, Nafalytics. Stock portfolio tracker built solo, 300 active users.
+
+## Projects
+
+- Nafalytics (https://nafalytics.com). Stock portfolio tracker built solo,
+  300 active users.
 
 ## Education
 

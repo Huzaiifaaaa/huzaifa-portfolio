@@ -11,10 +11,7 @@ const description =
 export const metadata: Metadata = {
   title,
   description,
-  alternates: {
-    canonical: "/blog/",
-    types: { "application/rss+xml": [{ url: "/blog/rss.xml", title }] },
-  },
+  alternates: { canonical: "/blog/" },
   openGraph: {
     type: "website",
     locale: "en_GB",
@@ -47,11 +44,6 @@ export default function BlogIndex() {
               <div>
                 {String(posts.length).padStart(2, "0")}{" "}
                 {posts.length === 1 ? "ENTRY" : "ENTRIES"}
-              </div>
-              <div style={{ marginTop: "0.2rem" }}>
-                <a className="dossier__link" href="/blog/rss.xml">
-                  RSS FEED
-                </a>
               </div>
             </div>
           </header>

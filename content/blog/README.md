@@ -33,7 +33,7 @@ and edit the values:
 ---
 title: My first post
 date: 2026-11-02
-summary: One sentence that appears on the blog list, in RSS and in link previews.
+summary: One sentence that appears on the blog list, and in link previews.
 tags: [security, azure]
 draft: false
 ---
@@ -61,14 +61,13 @@ autolinks). Notes:
 - Raw HTML is stripped. Write markdown only.
 - Fenced code blocks with a language (` ```ts `, ` ```bash `, ` ```yaml `) get
   syntax highlighting at build time.
-- Link to other posts with the site path, e.g. `[RSS](/blog/rss.xml)` or
-  `[earlier post](/blog/this-blog-is-live/)`.
+- Link to other posts with the site path, e.g. `[earlier post](/blog/this-blog-is-live/)`.
 - Images: put the file in `public/blog/` and reference it as `/blog/name.png`.
 
 ## 4. Drafts
 
 `draft: true` posts are skipped in production builds. They don't appear on the
-live site, the blog list, the RSS feed or the sitemap. They do show up in
+live site, the blog list or the sitemap. They do show up in
 `npm run dev` so you can preview them. Flip to `draft: false` (or delete the
 line) to publish.
 
@@ -82,7 +81,7 @@ deploys it to GitHub Pages. Either:
 
 The post is live a couple of minutes later at
 `https://huzaifa.eu/blog/<slug>/`, and appears at the top of
-`https://huzaifa.eu/blog/` and in `https://huzaifa.eu/blog/rss.xml`.
+`https://huzaifa.eu/blog/`.
 
 ## 6. If the build fails
 

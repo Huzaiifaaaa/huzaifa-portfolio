@@ -1,18 +1,19 @@
-name: Deploy to GitHub Pages
+name: CI / Deploy
 
+# Pull requests: lint, type-check and build (no deploy).
+# Pushes to main (or a manual run): the same checks, then publish to GitHub Pages.
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: ${{ github.event_name == 'pull_request' && format('ci-{0}', github.ref) || 'pages' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   build:
@@ -30,6 +31,12 @@ jobs:
       - name: Install
         run: npm ci
 
+      - name: Lint
+        run: npx eslint src
+
+      - name: Type-check
+        run: npx tsc --noEmit
+
       - name: Build
         env:
           SITE_URL: https://huzaifa.eu
@@ -41,13 +48,18 @@ jobs:
         run: touch out/.nojekyll
 
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: out
 
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

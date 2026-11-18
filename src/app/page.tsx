@@ -50,7 +50,7 @@ export default function Page() {
               Muhammad Huzaifa
             </h1>
             <p className="subject__sub">
-              Software Engineer (Full Stack) · Cyber Security Student · Oulu,
+              Software Engineer · Cyber Security · Oulu,
               Finland
             </p>
 
@@ -74,12 +74,12 @@ export default function Page() {
               <dt className="attrs__key">Education</dt>
               <dd className="attrs__val">
                 MSc Computer Science &amp; Engineering, University of Oulu
-                (Cyber Security) · BSc Computer Science, NUST
+                (Cyber Security)
               </dd>
 
               <dt className="attrs__key">Frameworks</dt>
               <dd className="attrs__val">
-                PCI-DSS · GDPR · OWASP Top 10 · SIEM
+                PCI-DSS · GDPR · OWASP Top 10
               </dd>
 
               <dt className="attrs__key">Certifications</dt>
@@ -89,14 +89,14 @@ export default function Page() {
 
               <dt className="attrs__key">Stack</dt>
               <dd className="attrs__val">
-                Java · Spring Boot · C# / ASP.NET Core · Python · Go ·
-                TypeScript · React · PostgreSQL · Kafka · Docker · Kubernetes ·
-                Azure
+                Java · Spring Boot · C# / NET · Python · Go ·
+                TypeScript · React · PostgreSQL · Docker · Kubernetes ·
+                SQL
               </dd>
 
               <dt className="attrs__key">Status</dt>
               <dd className="attrs__val">
-                Operational. Open to software engineering roles.
+                Operational. Open to engagements.
               </dd>
             </dl>
 
@@ -118,7 +118,8 @@ export default function Page() {
               <div className="record__entry">
                 <h3 className="record__title">Research Intern</h3>
                 <p className="record__org">
-                  University of Oulu&nbsp;·&nbsp;2026
+                  <Redacted label="Reveal employer">University of Oulu</Redacted>
+                  &nbsp;·&nbsp;06/2026 to 08/2026
                 </p>
                 <p className="record__body">
                   Extended the AVISE security evaluation framework to
@@ -130,18 +131,17 @@ export default function Page() {
                   submitted to NordSec 2026.
                 </p>
                 <p className="record__tags">
-                  <span>Python</span>
-                  <span>Docker</span>
-                  <span>OpenRouter</span>
-                  <span>AI security</span>
+                  <span>Python · Docker · OpenRouter · AI security</span>
                 </p>
               </div>
 
               <div className="record__entry">
                 <h3 className="record__title">Full Stack Software Engineer</h3>
                 <p className="record__org">
-                  Datapulse Technologies (FinTech) · Ireland, remote&nbsp;·&nbsp;2024
-                  to 2026
+                  <Redacted label="Reveal employer">
+                    Datapulse Technologies (FinTech)
+                  </Redacted>
+                  &nbsp;·&nbsp;Ireland, remote&nbsp;·&nbsp;02/2024 to 03/2026
                 </p>
                 <p className="record__body">
                   Architected and delivered a replacement for a legacy
@@ -153,11 +153,7 @@ export default function Page() {
                   readiness and stood in as lead for a four-person team.
                 </p>
                 <p className="record__tags">
-                  <span>Java · Spring Boot</span>
-                  <span>C# · ASP.NET Core</span>
-                  <span>React</span>
-                  <span>Azure · Sentinel</span>
-                  <span>Kubernetes</span>
+                  <span>Java · Spring Boot · C# · ASP.NET Core · React · Azure · Sentinel · Kubernetes</span>
                 </p>
               </div>
 
@@ -165,7 +161,7 @@ export default function Page() {
                 <h3 className="record__title">Trainee Engineer</h3>
                 <p className="record__org">
                   <Redacted label="Reveal employer">Rapidev (DefTech)</Redacted>
-                  &nbsp;·&nbsp;Islamabad&nbsp;·&nbsp;2022 to 2024
+                  &nbsp;·&nbsp;Islamabad, part-time&nbsp;·&nbsp;07/2022 to 05/2024
                 </p>
                 <p className="record__body">
                   Integrated detectors, jammers and spoofers into the RapiGuard
@@ -176,19 +172,17 @@ export default function Page() {
                   with live geospatial tracking for field operators.
                 </p>
                 <p className="record__tags">
-                  <span>C# · ASP.NET Core</span>
-                  <span>GraphQL</span>
-                  <span>UART</span>
-                  <span>Flutter</span>
+                  <span>C# · ASP.NET Core · GraphQL · UART · Flutter</span>
                 </p>
               </div>
 
               <div className="record__entry">
                 <h3 className="record__title">
-                  Software Engineer · Open Source
+                  Software Engineer Intern · Open Source
                 </h3>
                 <p className="record__org">
-                  Bitnine · San Francisco, remote&nbsp;·&nbsp;2023
+                  <Redacted label="Reveal employer">Bitnine</Redacted>
+                  &nbsp;·&nbsp;San Francisco, remote, internship&nbsp;·&nbsp;2023
                 </p>
                 <p className="record__body">
                   Contributed to Apache AGE, the graph extension for
@@ -197,28 +191,7 @@ export default function Page() {
                   graph databases.
                 </p>
                 <p className="record__tags">
-                  <span>C++ · Go</span>
-                  <span>PostgreSQL</span>
-                  <span>React · Node</span>
-                  <span>Open source</span>
-                </p>
-              </div>
-
-              <div className="record__entry">
-                <h3 className="record__title">Founder &amp; Full Stack Engineer</h3>
-                <p className="record__org">Nafalytics</p>
-                <p className="record__body">
-                  Built a stock portfolio tracking platform for the Pakistani
-                  market solo in three months, growing to 300 active users.
-                  Real-time profit and loss, FIFO trade matching, watchlists,
-                  automated payouts and notifications, with CI/CD on GitHub
-                  Actions to Azure.
-                </p>
-                <p className="record__tags">
-                  <span>Java · Spring Boot</span>
-                  <span>React</span>
-                  <span>PostgreSQL</span>
-                  <span>Azure · GCP</span>
+                  <span>C++ · Go · PostgreSQL · React · Node · Open source</span>
                 </p>
               </div>
             </div>
@@ -228,12 +201,39 @@ export default function Page() {
             <div className="section__header">
               <span className="section__index">§3</span>
               <h2 id="sec-3" className="section__title">
-                Research &amp; Training
+                Research
               </h2>
-              <span className="section__meta">Publications · Education</span>
+              <span className="section__meta">Publications</span>
             </div>
 
-            <div className="record">
+            <div className="record record--s3">
+              <div className="record__entry">
+                <h3 className="record__title">
+                  Security Evaluation of Text-to-Image Generative Models
+                  (AVISE)
+                </h3>
+                <p className="record__org">
+                  Submitted to NordSec 2026&nbsp;·&nbsp;
+                  <a
+                    className="dossier__link"
+                    href="https://github.com/ouspg/AVISE"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    AVISE on GitHub
+                  </a>
+                </p>
+                <p className="record__body">
+                  Co-authored with the University of Oulu research team.
+                  Formalises security vulnerability methodology for generative
+                  AI systems, backed by a 16-case adversarial test suite run
+                  against Text-to-Image models from 4+ providers.
+                </p>
+                <p className="record__tags">
+                  <span>AI security · Adversarial testing · Generative AI</span>
+                </p>
+              </div>
+
               <div className="record__entry">
                 <h3 className="record__title">
                   OptiGuard: Generalized, Attention-Driven &amp; Explainable
@@ -242,11 +242,21 @@ export default function Page() {
                 <p className="record__org">
                   IEEE EMBC 2025 · Copenhagen&nbsp;·&nbsp;
                   <a
+                    className="dossier__link"
                     href="https://ieeexplore.ieee.org/document/11253669"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    IEEE Xplore
+                    Read on IEEE Xplore
+                  </a>
+                  &nbsp;·&nbsp;
+                  <a
+                    className="dossier__link"
+                    href="https://linktr.ee/optiguard"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Project page
                   </a>
                 </p>
                 <p className="record__body">
@@ -256,12 +266,22 @@ export default function Page() {
                   S. S. U. Shah, H. K. K. Tareen and M. N. Bajwa.
                 </p>
                 <p className="record__tags">
-                  <span>Deep learning</span>
-                  <span>Explainable AI</span>
-                  <span>Medical imaging</span>
+                  <span>Deep learning · Explainable AI · Medical imaging</span>
                 </p>
               </div>
+            </div>
+          </section>
 
+          <section className="section" aria-labelledby="sec-4">
+            <div className="section__header">
+              <span className="section__index">§4</span>
+              <h2 id="sec-4" className="section__title">
+                Education
+              </h2>
+              <span className="section__meta">Academic Record</span>
+            </div>
+
+            <div className="record record--s4">
               <div className="record__entry">
                 <h3 className="record__title">
                   MSc Computer Science &amp; Engineering
@@ -276,9 +296,7 @@ export default function Page() {
                   Engineering, Data Mining.
                 </p>
                 <p className="record__tags">
-                  <span>Cyber security</span>
-                  <span>Cryptography</span>
-                  <span>Distributed systems</span>
+                  <span>Cyber security · Cryptography · Distributed systems</span>
                 </p>
               </div>
 
@@ -294,12 +312,22 @@ export default function Page() {
                   security, distributed computing and deep learning.
                 </p>
                 <p className="record__tags">
-                  <span>Algorithms</span>
-                  <span>Information security</span>
-                  <span>Deep learning</span>
+                  <span>Algorithms · Information security · Deep learning</span>
                 </p>
               </div>
+            </div>
+          </section>
 
+          <section className="section" aria-labelledby="sec-5">
+            <div className="section__header">
+              <span className="section__index">§5</span>
+              <h2 id="sec-5" className="section__title">
+                Certifications
+              </h2>
+              <span className="section__meta">Training</span>
+            </div>
+
+            <div className="record record--s5">
               <div className="record__entry">
                 <h3 className="record__title">Junior Penetration Tester</h3>
                 <p className="record__org">TryHackMe&nbsp;·&nbsp;12/2025</p>
@@ -309,43 +337,40 @@ export default function Page() {
                   bypass, SSRF and file inclusion.
                 </p>
                 <p className="record__tags">
-                  <span>OWASP Top 10</span>
-                  <span>SQLi · XSS</span>
-                  <span>SSRF</span>
-                  <span>LFI / RFI</span>
+                  <span>OWASP Top 10 · SQLi · XSS · SSRF · LFI / RFI</span>
                 </p>
               </div>
             </div>
           </section>
 
-          <section className="section" aria-labelledby="sec-4">
+          <section className="section" aria-labelledby="sec-6">
             <div className="section__header">
-              <span className="section__index">§4</span>
-              <h2 id="sec-4" className="section__title">
+              <span className="section__index">§6</span>
+              <h2 id="sec-6" className="section__title">
                 Notable Impact
               </h2>
-              <span className="section__meta">Selected</span>
+              <span className="section__meta">Selected · Redacted</span>
             </div>
 
             <span className="rule" aria-hidden="true" />
 
             <ul className="impact">
               <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">4.01</span>
+                <span className="impact__index" aria-hidden="true">6.01</span>
                 <p className="impact__body">
                   Architected and delivered a replacement payment gateway from
                   legacy infrastructure, now serving 1000+ merchants.
                 </p>
               </li>
               <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">4.02</span>
+                <span className="impact__index" aria-hidden="true">6.02</span>
                 <p className="impact__body">
                   Engineered a 25% performance gain and lower latency on a
                   legacy whitelabel payment architecture.
                 </p>
               </li>
               <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">4.03</span>
+                <span className="impact__index" aria-hidden="true">6.03</span>
                 <p className="impact__body">
                   Led PCI-DSS readiness end to end, closing 15+ audit findings
                   ahead of certification through SIEM-driven access controls
@@ -353,7 +378,7 @@ export default function Page() {
                 </p>
               </li>
               <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">4.04</span>
+                <span className="impact__index" aria-hidden="true">6.04</span>
                 <p className="impact__body">
                   Integrated three global acquirers (E-Comprocessing, Transflo,
                   Rapyd) plus Apple Pay and Google Pay into one unified
@@ -361,7 +386,7 @@ export default function Page() {
                 </p>
               </li>
               <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">4.05</span>
+                <span className="impact__index" aria-hidden="true">6.05</span>
                 <p className="impact__body">
                   Designed the CI/CD pipeline (GitHub, Jenkins, Docker,
                   Kubernetes) that enabled zero-downtime, single-push
@@ -369,7 +394,7 @@ export default function Page() {
                 </p>
               </li>
               <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">4.06</span>
+                <span className="impact__index" aria-hidden="true">6.06</span>
                 <p className="impact__body">
                   Architected a key management application for secure
                   cryptographic key injection into radio hardware used in
@@ -377,14 +402,14 @@ export default function Page() {
                 </p>
               </li>
               <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">4.07</span>
+                <span className="impact__index" aria-hidden="true">6.07</span>
                 <p className="impact__body">
                   Published OptiGuard at IEEE EMBC 2025 and co-authored a
                   generative AI security paper submitted to NordSec 2026.
                 </p>
               </li>
               <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">4.08</span>
+                <span className="impact__index" aria-hidden="true">6.08</span>
                 <p className="impact__body">
                   Built and launched Nafalytics solo in three months, reaching
                   300 active users.
@@ -397,14 +422,14 @@ export default function Page() {
             </div>
           </section>
 
-          <section className="section" aria-labelledby="sec-5">
+          <section className="section" aria-labelledby="sec-7">
             <div className="section__header">
-              <span className="section__index">§5</span>
-              <h2 id="sec-5" className="section__title">
+              <span className="section__index">§7</span>
+              <h2 id="sec-7" className="section__title">
                 Field Artifacts
               </h2>
               <span className="section__meta">
-                Recent · github.com/huzaiifaaaa
+                Recent 
               </span>
             </div>
 
@@ -414,7 +439,7 @@ export default function Page() {
               {projects.map((p, i) => (
                 <ArtifactRow
                   key={p.name}
-                  index={`5.${String(i + 1).padStart(2, "0")}`}
+                  index={`7.${String(i + 1).padStart(2, "0")}`}
                   name={p.name}
                   description={p.description}
                   lang={p.lang}
@@ -429,16 +454,24 @@ export default function Page() {
             </div>
           </section>
 
-          <section className="section" aria-labelledby="sec-6">
+          <section className="section" aria-labelledby="sec-8">
             <div className="section__header">
-              <span className="section__index">§6</span>
-              <h2 id="sec-6" className="section__title">
+              <span className="section__index">§8</span>
+              <h2 id="sec-8" className="section__title">
                 Address &amp; Disposition
               </h2>
               <span className="section__meta">Channels</span>
             </div>
 
             <div className="contact">
+              <div className="contact__line">
+                <span className="attrs__key">Email</span>
+                <span className="attrs__val">
+                  <a href="mailto:mhuzaifa404@proton.me">
+                    mhuzaifa404@proton.me
+                  </a>
+                </span>
+              </div>
               <div className="contact__line">
                 <span className="attrs__key">Repository</span>
                 <span className="attrs__val">
@@ -464,7 +497,7 @@ export default function Page() {
                 </span>
               </div>
               <div className="contact__line">
-                <span className="attrs__key">Stack Overflow</span>
+                <span className="attrs__key">Q&amp;A</span>
                 <span className="attrs__val">
                   <a
                     href="https://stackoverflow.com/users/16631465/huzaifa"
@@ -479,7 +512,6 @@ export default function Page() {
                 <span className="attrs__key">Engagement</span>
                 <span className="attrs__val">
                   Open to software engineering roles in Finland and the EU.
-                  Backend, full stack and security work prioritised.
                 </span>
               </div>
             </div>

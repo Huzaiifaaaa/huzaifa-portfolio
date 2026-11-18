@@ -23,11 +23,6 @@ export function SiteNav({ current }: Props) {
             </a>
           </li>
         ))}
-        <li>
-          <a className="sitenav__link" href="/blog/rss.xml">
-            RSS
-          </a>
-        </li>
       </ul>
     </nav>
   );

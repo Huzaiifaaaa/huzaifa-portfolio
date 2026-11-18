@@ -167,8 +167,3 @@ export function formatDate(date: string): string {
   const [y, m, d] = date.split("-").map(Number);
   return `${d} ${MONTHS[m - 1]} ${y}`;
 }
-
-// 2026-10-16 -> RFC 822 date for RSS, midday UTC so it never shifts a day.
-export function rfc822(date: string): string {
-  return new Date(`${date}T12:00:00Z`).toUTCString();
-}
