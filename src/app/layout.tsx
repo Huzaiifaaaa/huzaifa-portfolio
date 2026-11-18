@@ -74,11 +74,13 @@ export const metadata: Metadata = {
     firstName: "Muhammad",
     lastName: "Huzaifa",
     username: "huzaiifaaaa",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Muhammad Huzaifa · Software Engineer · Oulu, Finland" }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title,
     description,
+    images: ["/og.png"],
   },
   category: "technology",
 };

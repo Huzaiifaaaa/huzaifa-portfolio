@@ -314,6 +314,20 @@ a {
   opacity: 0;
 }
 
+/* Touch screens can't hover, so show the text there instead of the bar. */
+@media (hover: none) {
+  .redacted {
+    padding: 0;
+    text-align: inherit;
+    text-decoration: none;
+    cursor: auto;
+  }
+
+  .redacted::after {
+    opacity: 0;
+  }
+}
+
 .redacted:focus-visible {
   outline: 2px solid var(--stamp);
   outline-offset: 2px;
@@ -730,15 +744,15 @@ a {
   letter-spacing: 0.06em;
 }
 
-/* Entry numbers follow their section: §3 → 3.01, §4 → 4.01, §5 → 5.01. */
+/* Entry numbers follow their section. Unclassed lists (§2) use "2." above. */
 .record--s3 .record__entry::before {
   content: "3." counter(service-record, decimal-leading-zero);
 }
-.record--s4 .record__entry::before {
-  content: "4." counter(service-record, decimal-leading-zero);
-}
 .record--s5 .record__entry::before {
   content: "5." counter(service-record, decimal-leading-zero);
+}
+.record--s6 .record__entry::before {
+  content: "6." counter(service-record, decimal-leading-zero);
 }
 
 .record__entry:first-child::before {

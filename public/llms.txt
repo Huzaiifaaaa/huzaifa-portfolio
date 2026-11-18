@@ -40,7 +40,7 @@ Site: https://huzaifa.eu/
 - Trainee Engineer (part-time), Rapidev, Islamabad (Jul 2022 to May 2024). RapiGuard anti-UAV
   sensor integration, key management application for radio hardware, Flutter
   situational-awareness app.
-- Software Engineer Intern, Open Source, Bitnine (2023). Apache AGE contributor;
+- Software Engineer Intern, Open Source, Bitnine (Mar 2023 to Aug 2023). Apache AGE contributor;
   built the AG Cloud website.
 
 ## Projects

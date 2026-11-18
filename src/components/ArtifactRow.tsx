@@ -21,7 +21,11 @@ export function ArtifactRow({
       href={href}
       target="_blank"
       rel="noreferrer"
-      aria-label={`${name}: open repository on GitHub`}
+      aria-label={
+        href.includes("github.com/")
+          ? `${name}: open repository on GitHub`
+          : `${name}: open project website`
+      }
     >
       <span className="artifact__index" aria-hidden="true">
         {index}

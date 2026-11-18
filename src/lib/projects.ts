@@ -37,6 +37,6 @@ export const projects: Project[] = [
       "Anti-UAV defence system. Integrated detectors, jammers and spoofers over GraphQL for real-time aerial threat detection, plus REST APIs for third-party integration.",
     lang: "C#",
     updated: "2024.05",
-    href: "https://rapidev.ae",
+    href: "https://rapiguard.ai",
   },
 ];

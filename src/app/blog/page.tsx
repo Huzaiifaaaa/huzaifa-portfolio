@@ -19,8 +19,9 @@ export const metadata: Metadata = {
     siteName,
     title,
     description,
+    images: ["/og.png"],
   },
-  twitter: { card: "summary", title, description },
+  twitter: { card: "summary_large_image", title, description, images: ["/og.png"] },
 };
 
 export default function BlogIndex() {

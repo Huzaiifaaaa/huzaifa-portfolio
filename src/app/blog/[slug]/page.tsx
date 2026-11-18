@@ -42,8 +42,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post.date,
       authors: ["Muhammad Huzaifa"],
       tags: post.tags,
+      images: ["/og.png"],
     },
-    twitter: { card: "summary", title: post.title, description: post.summary },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.summary,
+      images: ["/og.png"],
+    },
   };
 }
 

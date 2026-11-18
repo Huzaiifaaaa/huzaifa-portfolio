@@ -61,7 +61,7 @@ Rapidev (DefTech), Islamabad, Pakistan
   key injection into radio hardware.
 - Built a Flutter situational-awareness app with Google Maps tracking.
 
-Software Engineer Intern, Open Source                        2023
+Software Engineer Intern, Open Source              Mar 2023 to Aug 2023
 Bitnine, San Francisco, remote
 - Developed the AG Cloud website for cloud-hosted graph databases.
 - Enhanced Apache AGE functionality and performance as a core contributor.

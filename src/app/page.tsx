@@ -50,7 +50,7 @@ export default function Page() {
               Muhammad Huzaifa
             </h1>
             <p className="subject__sub">
-              Software Engineer · Cyber Security · Oulu,
+              Software Engineer · Cyber Security Student · Oulu,
               Finland
             </p>
 
@@ -109,12 +109,58 @@ export default function Page() {
             <div className="section__header">
               <span className="section__index">§2</span>
               <h2 id="sec-2" className="section__title">
+                Education
+              </h2>
+              <span className="section__meta">Academic Record</span>
+            </div>
+
+            <div className="record">
+              <div className="record__entry">
+                <h3 className="record__title">
+                  MSc Computer Science &amp; Engineering
+                </h3>
+                <p className="record__org">
+                  University of Oulu&nbsp;·&nbsp;09/2025 to 06/2027
+                </p>
+                <p className="record__body">
+                  Specialisation in Cyber Security, Software and Data Security.
+                  Distributed Systems, Advanced Software Quality and Security,
+                  Cryptographic Systems and their Weaknesses, Security
+                  Engineering, Data Mining.
+                </p>
+                <p className="record__tags">
+                  <span>Cyber security · Cryptography · Distributed systems</span>
+                </p>
+              </div>
+
+              <div className="record__entry">
+                <h3 className="record__title">BSc Computer Science</h3>
+                <p className="record__org">
+                  National University of Sciences &amp; Technology&nbsp;·&nbsp;08/2020
+                  to 05/2024
+                </p>
+                <p className="record__body">
+                  Thesis: OptiGuard, published at IEEE EMBC 2025. Coursework in
+                  algorithms, databases, software engineering, information
+                  security, distributed computing and deep learning.
+                </p>
+                <p className="record__tags">
+                  <span>Algorithms · Information security · Deep learning</span>
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section className="section" aria-labelledby="sec-3">
+            <div className="section__header">
+              <span className="section__index">§3</span>
+              <h2 id="sec-3" className="section__title">
                 Mission Record
               </h2>
               <span className="section__meta">Service History</span>
             </div>
 
-            <div className="record">
+            <div className="record record--s3">
               <div className="record__entry">
                 <h3 className="record__title">Research Intern</h3>
                 <p className="record__org">
@@ -182,7 +228,7 @@ export default function Page() {
                 </h3>
                 <p className="record__org">
                   <Redacted label="Reveal employer">Bitnine</Redacted>
-                  &nbsp;·&nbsp;San Francisco, remote, internship&nbsp;·&nbsp;2023
+                  &nbsp;·&nbsp;San Francisco, remote, internship&nbsp;·&nbsp;03/2023 to 08/2023
                 </p>
                 <p className="record__body">
                   Contributed to Apache AGE, the graph extension for
@@ -197,31 +243,55 @@ export default function Page() {
             </div>
           </section>
 
-          <section className="section" aria-labelledby="sec-3">
+          <section className="section" aria-labelledby="sec-4">
             <div className="section__header">
-              <span className="section__index">§3</span>
-              <h2 id="sec-3" className="section__title">
+              <span className="section__index">§4</span>
+              <h2 id="sec-4" className="section__title">
+                Field Artifacts
+              </h2>
+              <span className="section__meta">
+                Recent 
+              </span>
+            </div>
+
+            <span className="rule" aria-hidden="true" />
+
+            <div className="artifacts">
+              {projects.map((p, i) => (
+                <ArtifactRow
+                  key={p.name}
+                  index={`4.${String(i + 1).padStart(2, "0")}`}
+                  name={p.name}
+                  description={p.description}
+                  lang={p.lang}
+                  updated={p.updated}
+                  href={p.href}
+                />
+              ))}
+            </div>
+
+            <div className="stamp__row">
+              <Stamp rotate={-10}>Review Complete · M.H.</Stamp>
+            </div>
+          </section>
+
+          <section className="section" aria-labelledby="sec-5">
+            <div className="section__header">
+              <span className="section__index">§5</span>
+              <h2 id="sec-5" className="section__title">
                 Research
               </h2>
               <span className="section__meta">Publications</span>
             </div>
 
-            <div className="record record--s3">
+            <div className="record record--s5">
               <div className="record__entry">
                 <h3 className="record__title">
                   Security Evaluation of Text-to-Image Generative Models
                   (AVISE)
                 </h3>
                 <p className="record__org">
-                  Submitted to NordSec 2026&nbsp;·&nbsp;
-                  <a
-                    className="dossier__link"
-                    href="https://github.com/ouspg/AVISE"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    AVISE on GitHub
-                  </a>
+                  Submitted to NordSec 2026
                 </p>
                 <p className="record__body">
                   Co-authored with the University of Oulu research team.
@@ -247,16 +317,7 @@ export default function Page() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Read on IEEE Xplore
-                  </a>
-                  &nbsp;·&nbsp;
-                  <a
-                    className="dossier__link"
-                    href="https://linktr.ee/optiguard"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Project page
+                    IEEE Xplore
                   </a>
                 </p>
                 <p className="record__body">
@@ -272,62 +333,16 @@ export default function Page() {
             </div>
           </section>
 
-          <section className="section" aria-labelledby="sec-4">
+          <section className="section" aria-labelledby="sec-6">
             <div className="section__header">
-              <span className="section__index">§4</span>
-              <h2 id="sec-4" className="section__title">
-                Education
-              </h2>
-              <span className="section__meta">Academic Record</span>
-            </div>
-
-            <div className="record record--s4">
-              <div className="record__entry">
-                <h3 className="record__title">
-                  MSc Computer Science &amp; Engineering
-                </h3>
-                <p className="record__org">
-                  University of Oulu&nbsp;·&nbsp;09/2025 to 06/2027
-                </p>
-                <p className="record__body">
-                  Specialisation in Cyber Security, Software and Data Security.
-                  Distributed Systems, Advanced Software Quality and Security,
-                  Cryptographic Systems and their Weaknesses, Security
-                  Engineering, Data Mining.
-                </p>
-                <p className="record__tags">
-                  <span>Cyber security · Cryptography · Distributed systems</span>
-                </p>
-              </div>
-
-              <div className="record__entry">
-                <h3 className="record__title">BSc Computer Science</h3>
-                <p className="record__org">
-                  National University of Sciences &amp; Technology&nbsp;·&nbsp;08/2020
-                  to 05/2024
-                </p>
-                <p className="record__body">
-                  Thesis: OptiGuard, published at IEEE EMBC 2025. Coursework in
-                  algorithms, databases, software engineering, information
-                  security, distributed computing and deep learning.
-                </p>
-                <p className="record__tags">
-                  <span>Algorithms · Information security · Deep learning</span>
-                </p>
-              </div>
-            </div>
-          </section>
-
-          <section className="section" aria-labelledby="sec-5">
-            <div className="section__header">
-              <span className="section__index">§5</span>
-              <h2 id="sec-5" className="section__title">
+              <span className="section__index">§6</span>
+              <h2 id="sec-6" className="section__title">
                 Certifications
               </h2>
               <span className="section__meta">Training</span>
             </div>
 
-            <div className="record record--s5">
+            <div className="record record--s6">
               <div className="record__entry">
                 <h3 className="record__title">Junior Penetration Tester</h3>
                 <p className="record__org">TryHackMe&nbsp;·&nbsp;12/2025</p>
@@ -343,121 +358,10 @@ export default function Page() {
             </div>
           </section>
 
-          <section className="section" aria-labelledby="sec-6">
-            <div className="section__header">
-              <span className="section__index">§6</span>
-              <h2 id="sec-6" className="section__title">
-                Notable Impact
-              </h2>
-              <span className="section__meta">Selected · Redacted</span>
-            </div>
-
-            <span className="rule" aria-hidden="true" />
-
-            <ul className="impact">
-              <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">6.01</span>
-                <p className="impact__body">
-                  Architected and delivered a replacement payment gateway from
-                  legacy infrastructure, now serving 1000+ merchants.
-                </p>
-              </li>
-              <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">6.02</span>
-                <p className="impact__body">
-                  Engineered a 25% performance gain and lower latency on a
-                  legacy whitelabel payment architecture.
-                </p>
-              </li>
-              <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">6.03</span>
-                <p className="impact__body">
-                  Led PCI-DSS readiness end to end, closing 15+ audit findings
-                  ahead of certification through SIEM-driven access controls
-                  and audit logging.
-                </p>
-              </li>
-              <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">6.04</span>
-                <p className="impact__body">
-                  Integrated three global acquirers (E-Comprocessing, Transflo,
-                  Rapyd) plus Apple Pay and Google Pay into one unified
-                  gateway.
-                </p>
-              </li>
-              <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">6.05</span>
-                <p className="impact__body">
-                  Designed the CI/CD pipeline (GitHub, Jenkins, Docker,
-                  Kubernetes) that enabled zero-downtime, single-push
-                  production releases.
-                </p>
-              </li>
-              <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">6.06</span>
-                <p className="impact__body">
-                  Architected a key management application for secure
-                  cryptographic key injection into radio hardware used in
-                  military communications in the Gulf region.
-                </p>
-              </li>
-              <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">6.07</span>
-                <p className="impact__body">
-                  Published OptiGuard at IEEE EMBC 2025 and co-authored a
-                  generative AI security paper submitted to NordSec 2026.
-                </p>
-              </li>
-              <li className="impact__item">
-                <span className="impact__index" aria-hidden="true">6.08</span>
-                <p className="impact__body">
-                  Built and launched Nafalytics solo in three months, reaching
-                  300 active users.
-                </p>
-              </li>
-            </ul>
-
-            <div className="stamp__row">
-              <Stamp rotate={-7}>Outcomes · Available on Request</Stamp>
-            </div>
-          </section>
-
           <section className="section" aria-labelledby="sec-7">
             <div className="section__header">
               <span className="section__index">§7</span>
               <h2 id="sec-7" className="section__title">
-                Field Artifacts
-              </h2>
-              <span className="section__meta">
-                Recent 
-              </span>
-            </div>
-
-            <span className="rule" aria-hidden="true" />
-
-            <div className="artifacts">
-              {projects.map((p, i) => (
-                <ArtifactRow
-                  key={p.name}
-                  index={`7.${String(i + 1).padStart(2, "0")}`}
-                  name={p.name}
-                  description={p.description}
-                  lang={p.lang}
-                  updated={p.updated}
-                  href={p.href}
-                />
-              ))}
-            </div>
-
-            <div className="stamp__row">
-              <Stamp rotate={-10}>Review Complete · M.H.</Stamp>
-            </div>
-          </section>
-
-          <section className="section" aria-labelledby="sec-8">
-            <div className="section__header">
-              <span className="section__index">§8</span>
-              <h2 id="sec-8" className="section__title">
                 Address &amp; Disposition
               </h2>
               <span className="section__meta">Channels</span>
