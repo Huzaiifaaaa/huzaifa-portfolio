@@ -159,7 +159,7 @@ export default function Page() {
                 <h3 className="record__title">Research Intern</h3>
                 <p className="record__org">
                   <Redacted label="Reveal employer">University of Oulu</Redacted>
-                  &nbsp;·&nbsp;Oulu, Finland&nbsp;·&nbsp;06/2024 to 08/2026
+                  &nbsp;·&nbsp;Oulu, Finland&nbsp;·&nbsp;06/2026 to 08/2026
                 </p>
                 <p className="record__body">
                   Extended the AVISE security evaluation framework to

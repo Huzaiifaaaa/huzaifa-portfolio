@@ -1,15 +1,16 @@
 # Muhammad Huzaifa
 
-Full Stack Software Engineer and MSc Computer Science & Engineering student
-(Cyber Security specialisation) at the University of Oulu, Finland. Shipping
-production software since 2022 across payment gateways, defence systems,
-open source databases and AI security research.
+Full Stack Software Engineer based in Oulu, Finland, specialising in payment
+infrastructure and security-critical systems. 3+ years shipping production
+systems across FinTech and DefTech. Studying for an MSc in Computer Science &
+Engineering (Cyber Security) at the University of Oulu.
 
 Email: mhuzaifa404@proton.me
 GitHub: https://github.com/huzaiifaaaa
 LinkedIn: https://linkedin.com/in/huzaiifaaaa
 Stack Overflow: https://stackoverflow.com/users/16631465/huzaifa
 Site: https://huzaifa.eu/
+Plain-text CV: https://huzaifa.eu/resume.txt
 
 ## Capability
 
@@ -23,39 +24,47 @@ Site: https://huzaifa.eu/
 - Security and compliance: PCI-DSS, GDPR, OWASP Top 10, SIEM.
 - Engineering practice: system design, distributed systems, Agile/Scrum, unit
   and automated testing (Playwright, Selenium).
-
-## Certifications
-
-- TryHackMe Junior Penetration Tester (2025)
-
-## Experience
-
-- Research Intern, University of Oulu (Jun 2026 to Aug 2026). Extended the AVISE AI security
-  evaluation framework to Text-to-Image models; co-authored a paper submitted
-  to NordSec 2026.
-- Full Stack Software Engineer, Datapulse Technologies, Ireland, remote
-  (Feb 2024 to Mar 2026). Rebuilt a multi-region whitelabel payment gateway now
-  serving 1000+ merchants; 25% performance gain; integrated three acquirers
-  plus Apple Pay and Google Pay; owned CI/CD; led PCI-DSS readiness.
-- Trainee Engineer (part-time), Rapidev, Islamabad (Jul 2022 to May 2024). RapiGuard anti-UAV
-  sensor integration, key management application for radio hardware, Flutter
-  situational-awareness app.
-- Software Engineer Intern, Open Source, Bitnine (Mar 2023 to Aug 2023). Apache AGE contributor;
-  built the AG Cloud website.
-
-## Projects
-
-- Nafalytics (https://nafalytics.com). Stock portfolio tracker built solo,
-  300 active users.
+- Spoken languages: English (fluent, C1/C2), Finnish (beginner, A1).
 
 ## Education
 
-- MSc Computer Science & Engineering, University of Oulu (2025 to 2027).
-- BSc Computer Science, National University of Sciences & Technology (2020 to
-  2024).
+- MSc Computer Science & Engineering, University of Oulu (Sep 2025 to Jun
+  2027). Specialisation: Cyber Security; Software and Data Security.
+- BSc Computer Science, National University of Sciences & Technology,
+  Islamabad (Aug 2020 to May 2024). Thesis: OptiGuard.
+
+## Experience
+
+- Research Intern, University of Oulu (Jun 2026 to Aug 2026). Extended the
+  AVISE AI security evaluation framework to Text-to-Image models with a
+  16-case adversarial test suite; co-authored a paper submitted to NordSec
+  2026.
+- Full Stack Software Engineer, Datapulse Technologies, Ireland, remote
+  (Feb 2024 to Mar 2026). Rebuilt a multi-region whitelabel payment gateway
+  now serving 1000+ merchants; 25% performance gain; integrated three
+  acquirers plus Apple Pay and Google Pay; owned CI/CD; led PCI-DSS
+  readiness, closing 15+ audit findings; substitute team lead.
+- Trainee Engineer (part-time), Rapidev, Islamabad (Jul 2022 to May 2024).
+  RapiGuard anti-UAV sensor integration, key management application with
+  UART key injection for radio hardware, Flutter situational-awareness app.
+- Software Engineering Intern, Bitnine, remote (Mar 2023 to Aug 2023).
+  Apache AGE contributor; built the AG Cloud website.
+
+## Projects
+
+- Nafalytics (https://nafalytics.com). Stock portfolio tracker built solo in
+  3 months, 300 active users.
+- PBT Payment Gateway (https://pbtgateway.com/). The Datapulse gateway.
+- RapiGuard (https://rapidev.ae/rapiguard.html). Anti-UAV defence system.
 
 ## Publications
 
 - OptiGuard: Generalized, Attention-Driven & Explainable Glaucoma
   Classification. IEEE EMBC 2025, Copenhagen.
   https://ieeexplore.ieee.org/document/11253669
+- Security evaluation of Text-to-Image generative models (AVISE). Submitted
+  to NordSec 2026.
+
+## Certifications
+
+- TryHackMe Junior Penetration Tester (December 2025).

@@ -1,91 +1,139 @@
 MUHAMMAD HUZAIFA
-Software Engineer (Full Stack)
+Software Engineer (Full Stack) · Cyber Security
 Oulu, Finland
 Email:    mhuzaifa404@proton.me
 GitHub:   https://github.com/huzaiifaaaa
 LinkedIn: https://linkedin.com/in/huzaiifaaaa
 Site:     https://huzaifa.eu/
 
-SUMMARY
--------
-Full Stack Software Engineer and MSc Computer Science & Engineering student
-specialising in Cyber Security at the University of Oulu. Shipping production
-software since 2022: a PCI-DSS payment gateway serving 1000+ merchants,
-defence systems, open source work on Apache AGE, and AI security research.
+ABOUT
+-----
+Full Stack Engineer specialising in payment infrastructure and
+security-critical systems, from PCI-DSS compliant gateways processing
+thousands of daily transactions to embedded cryptographic systems for
+defence infrastructure. 3+ years shipping production systems across FinTech
+and DefTech, proficient across Java (Spring Boot) and C#/.NET microservices,
+React, and cloud infrastructure (Azure, Kubernetes, CI/CD). Studying for an
+MSc in Computer Science & Engineering (Cyber Security) at the University of
+Oulu.
 
 TECHNICAL SKILLS
 ----------------
 Languages:   Java, C#, Python, Go, JavaScript, TypeScript, SQL, C, C++
-Frameworks:  Spring Boot, ASP.NET Core, Node.js, React, Hibernate, REST APIs,
-             API design, microservices
+Frameworks:  Spring Boot, ASP.NET Core, Node.js, React JS, REST APIs,
+             API design, microservices, Hibernate
 Databases:   PostgreSQL, MSSQL, MySQL, YugabyteDB
 Messaging:   Apache Kafka, RabbitMQ
 Cloud/DevOps: Azure, Google Cloud, Docker, Kubernetes, Jenkins, GitHub
-             Actions, CI/CD, Azure Sentinel
+             Actions, CI/CD, observability and monitoring (Azure Sentinel)
 Practice:    System design, distributed systems, OOP, Agile/Scrum, unit
-             testing, test automation, Playwright, Selenium
+             testing, test automation (Playwright, Selenium)
 Security:    PCI-DSS, GDPR, OWASP Top 10, SIEM
 AI tools:    Claude Code, Codex, Cursor, GitHub Copilot
 
+EDUCATION
+---------
+MSc Computer Science & Engineering              Sep 2025 to Jun 2027
+University of Oulu, Oulu, Finland
+- Specialisation: Cyber Security; Software and Data Security.
+- Courses: Distributed Systems, Advanced Software Quality & Security,
+  Cryptographic Systems & their Weaknesses, Security Engineering,
+  Professional Software Engineering Processes & Human Factors, Software
+  Project, Data Mining, International Crisis Management.
+
+BSc Computer Science                            Aug 2020 to May 2024
+National University of Sciences & Technology, Islamabad, Pakistan
+- Thesis: OptiGuard (published at IEEE EMBC 2025). State-of-the-art results
+  on G-1020 and SMDG; awarded 1st Best Project distinction.
+
 EXPERIENCE
 ----------
-Research Intern                                    Jun 2026 to Aug 2026
-University of Oulu, Finland
-- Extended the AVISE security evaluation framework to Text-to-Image models
-  with a 16-case adversarial test suite for style-escalation resistance.
-- Co-authored a paper on security vulnerability methodology for generative
-  AI systems, submitted to NordSec 2026.
-- Built OpenRouter-based connectors for reproducible evaluation across 4+
-  T2I model providers.
+Research Intern                                 Jun 2026 to Aug 2026
+University of Oulu, Oulu, Finland
+- Extended the AVISE security evaluation framework to Text-to-Image models,
+  designing a 16-case adversarial test suite for style-escalation
+  resistance.
+- Co-authored a research paper formalising security vulnerability
+  methodologies for generative AI systems, submitted to NordSec 2026.
+- Built OpenRouter-based model connectors enabling standardised,
+  reproducible evaluation across 4+ T2I model providers (Google, xAI,
+  OpenAI and open-source diffusion models).
 
-Full Stack Software Engineer                       Feb 2024 to Mar 2026
+Full Stack Software Engineer                    Feb 2024 to Mar 2026
 Datapulse Technologies (FinTech), Ireland, remote
-- Architected and delivered a replacement payment gateway from legacy
-  infrastructure, now serving 1000+ merchants.
-- Engineered a 25% performance gain on a legacy whitelabel architecture.
-- Integrated E-Comprocessing, Transflo, Rapyd, Apple Pay and Google Pay.
-- Consolidated separate payment systems into one unified gateway.
-- Built fault-tolerant Java/Spring Boot microservices, monitored with Azure
-  Sentinel.
-- Substitute lead for a four-person engineering team.
-- Owned CI/CD (GitHub, Jenkins, Docker, Kubernetes) for zero-downtime
-  releases.
-- Led PCI-DSS readiness, closing 15+ audit findings ahead of certification.
+- Architected and delivered a replacement payment gateway platform from
+  legacy infrastructure, now serving 1000+ merchants.
+- Engineered a 25% performance gain and reduced latency on a legacy
+  whitelabel payment architecture.
+- Integrated 3 global acquirers (E-Comprocessing, Transflo, Rapyd) and
+  digital wallets (Apple Pay, Google Pay).
+- Consolidated separate payment systems into a single unified gateway
+  across card-present and card-not-present flows.
+- Built and scaled fault-tolerant Java/Spring Boot microservices processing
+  1000+ transactions, monitored via Azure Sentinel.
+- Substitute lead for a four-person engineering team: sprint planning and
+  code reviews to keep the gateway rebuild on schedule.
+- Owned CI/CD pipeline design (GitHub, Jenkins, Docker, Kubernetes) for
+  zero-downtime, single-push production releases.
+- Led PCI-DSS compliance readiness end to end, closing 15+ audit findings
+  ahead of certification via SIEM-driven access controls and audit logging.
 
-Trainee Engineer (part-time)                       Jul 2022 to May 2024
+Trainee Engineer (part-time)                    Jul 2022 to May 2024
 Rapidev (DefTech), Islamabad, Pakistan
-- Integrated detectors, jammers and spoofers into the RapiGuard anti-UAV
-  system via GraphQL.
-- Developed REST APIs for third-party defence system integration.
-- Architected a Key Management Application with UART-based cryptographic
-  key injection into radio hardware.
-- Built a Flutter situational-awareness app with Google Maps tracking.
+- Integrated 2 hardware sensors (detectors, jammers, spoofers) into the
+  RapiGuard anti-UAV system via GraphQL for real-time aerial threat
+  detection and neutralisation.
+- Developed REST APIs for third-party integration with external defence
+  software platforms.
+- Architected a Key Management Application for encryption key lifecycles,
+  with UART-based cryptographic key injection into radio hardware, deployed
+  across military communications systems in the Gulf region.
+- Built a Tactical Situational Awareness app in Flutter (Android) with
+  Google Maps integration for real-time location tracking.
 
-Software Engineer Intern, Open Source              Mar 2023 to Aug 2023
-Bitnine, San Francisco, remote
-- Developed the AG Cloud website for cloud-hosted graph databases.
-- Enhanced Apache AGE functionality and performance as a core contributor.
+Software Engineering Intern                     Mar 2023 to Aug 2023
+Bitnine, San Francisco, USA (remote)
+- Contributed to Apache AGE, the graph extension for PostgreSQL, improving
+  functionality and performance.
+- Developed the AG Cloud website for accessing cloud-based graph solutions.
 
 PROJECTS
 --------
-Nafalytics (https://nafalytics.com), founder and sole engineer
-- Built a stock portfolio tracking platform solo in three months; 300
-  active users.
-- Real-time P/L, FIFO trade matching, watchlists, payouts, notifications.
+Nafalytics (https://nafalytics.com), founder and full stack engineer
+- Built and launched a stock portfolio tracker from scratch in 3 months;
+  300 active users.
+- Real-time P/L, historical performance analytics, FIFO trade matching,
+  watchlists, automated payouts and a notification engine.
+- Java Spring Boot, React, PostgreSQL on Azure, CI/CD via GitHub Actions.
 
-EDUCATION
----------
-MSc Computer Science & Engineering            University of Oulu, 2025 to 2027
-  Specialisation: Cyber Security, Software & Data Security
-BSc Computer Science      National University of Sciences & Technology, 2020 to 2024
-  Thesis: OptiGuard (IEEE EMBC 2025)
+PBT Payment Gateway (https://pbtgateway.com/), work project at Datapulse
+- Multi-region whitelabel payment gateway (see Datapulse above).
+- Developer docs: https://merchants.pbtpay.eu/WebSite/DeveloperDocs.aspx
+
+RapiGuard (https://rapidev.ae/rapiguard.html), work project at Rapidev
+- Anti-UAV system integrating jammers, spoofers and detectors to detect and
+  neutralise drone threats.
 
 PUBLICATIONS
 ------------
 OptiGuard: Generalized, Attention-Driven & Explainable Glaucoma
-Classification. IEEE EMBC 2025, Copenhagen, Denmark.
+Classification. 47th Annual International Conference of the IEEE
+Engineering in Medicine and Biology Society (EMBC 2025), Copenhagen.
 https://ieeexplore.ieee.org/document/11253669
+Project page: https://linktr.ee/optiguard
+
+Security evaluation of Text-to-Image generative models (AVISE).
+Submitted to NordSec 2026. https://github.com/ouspg/AVISE
 
 CERTIFICATIONS
 --------------
-TryHackMe Junior Penetration Tester, December 2025
+Junior Penetration Tester, TryHackMe                December 2025
+- OWASP Top 10: SQL injection, XSS, IDOR, command injection.
+- Authentication bypass, SSRF and file inclusion (LFI/RFI) exploitation and
+  remediation.
+- Content discovery, subdomain enumeration, race conditions and directory
+  traversal.
+
+LANGUAGES
+---------
+English: fluent (C1/C2). Finnish: beginner (A1).
