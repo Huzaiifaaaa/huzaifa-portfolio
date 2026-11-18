@@ -22,7 +22,7 @@ const siteUrl =
 const description =
   "Muhammad Huzaifa: Full Stack Software Engineer and MSc Computer Science & Engineering (Cyber Security) student at the University of Oulu, Finland. Payment gateway engineering at Datapulse Technologies, defence systems at Rapidev, open source on Apache AGE, and AI security research on the AVISE framework.";
 
-const title = "Muhammad Huzaifa · Software Engineer · Oulu, Finland";
+const title = "Huzaifa · Software Engineer · Oulu, Finland";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -89,7 +89,7 @@ const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Muhammad Huzaifa",
-  alternateName: "huzaiifaaaa",
+  alternateName: "huzaifa",
   jobTitle: "Software Engineer (Full Stack)",
   description,
   url: siteUrl,
