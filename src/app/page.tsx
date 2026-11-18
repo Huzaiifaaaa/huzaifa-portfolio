@@ -82,11 +82,6 @@ export default function Page() {
                 PCI-DSS · GDPR · OWASP Top 10
               </dd>
 
-              <dt className="attrs__key">Certifications</dt>
-              <dd className="attrs__val">
-                TryHackMe Junior Penetration Tester
-              </dd>
-
               <dt className="attrs__key">Stack</dt>
               <dd className="attrs__val">
                 Java · Spring Boot · C# / NET · Python · Go ·
@@ -124,9 +119,8 @@ export default function Page() {
                 </p>
                 <p className="record__body">
                   Specialisation in Cyber Security, Software and Data Security.
-                  Distributed Systems, Advanced Software Quality and Security,
-                  Cryptographic Systems and their Weaknesses, Security
-                  Engineering, Data Mining.
+                  Coursework in distributed systems, advanced software quality and security,
+                  cryptographic systems, security engineering, professional software engineering, data mining.
                 </p>
                 <p className="record__tags">
                   <span>Cyber security · Cryptography · Distributed systems</span>
@@ -165,7 +159,7 @@ export default function Page() {
                 <h3 className="record__title">Research Intern</h3>
                 <p className="record__org">
                   <Redacted label="Reveal employer">University of Oulu</Redacted>
-                  &nbsp;·&nbsp;06/2026 to 08/2026
+                  &nbsp;·&nbsp;Oulu, Finland&nbsp;·&nbsp;06/2024 to 08/2026
                 </p>
                 <p className="record__body">
                   Extended the AVISE security evaluation framework to
@@ -199,7 +193,7 @@ export default function Page() {
                   readiness and stood in as lead for a four-person team.
                 </p>
                 <p className="record__tags">
-                  <span>Java · Spring Boot · C# · ASP.NET Core · React · Azure · Sentinel · Kubernetes</span>
+                  <span>Java · Spring Boot · C# · ASP.NET Core · React · Azure · Docker · Kubernetes · PCI DSS</span>
                 </p>
               </div>
 
